@@ -1,0 +1,60 @@
+.input_box{
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 25px;
+}
+
+.knop img{
+  width: 30px;
+}
+
+body{
+  background-color: #21262D;
+}
+
+a{
+  color: #fff; 
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover{
+  color: #000;
+  transform: translateY(-10px);
+  background: #666869;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px #414345;
+}
+
+.card-title{
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.card-title a{
+  color: red;
+}
+
+.card-img-top{
+  border-radius: 50%;
+}
+
+.box_item{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.boxs{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card{
+  background-color: #414345;
+  border: none;
+  color: #fff;
+}
